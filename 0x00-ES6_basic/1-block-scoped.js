@@ -3,10 +3,9 @@ export default function taskBlock(trueOrFalse) {
   var task2 = true;
 
   if (trueOrFalse) {
-    task = true;   // Avoid redeclaration
-    task2 = false; // Avoid redeclaration
+    let task = true;
+    let task2 = false;
   }
 
   return [task, task2];
 }
-
