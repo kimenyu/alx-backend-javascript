@@ -7,9 +7,7 @@ export default async function asyncUploadUser() {
 
     return { photo, user };
   })
-    .catch((error) => {
-      console.error(error.message);
-    });
+    .catch((error) => error);
 
   const data = await all;
 
