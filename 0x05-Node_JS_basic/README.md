@@ -1,1 +1,1 @@
-0x05-Node_JS_basic
+# Add solution to tasks on 0x05. NodeJS Basics
